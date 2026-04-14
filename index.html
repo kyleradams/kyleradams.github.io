@@ -1,10 +1,60 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Kyler's Homepage</title>
-  </head>
-  <body>
-    <h1>Hello 👋</h1>
-    <p>This is my personal site.</p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Kyler Adams</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <h1>Kyler Adams</h1>
+  <p>Senior Lead Data Platform Engineer</p>
+  <div class="links">
+    <a href="mailto:kyleradams58@gmail.com">Email</a>
+    <a href="https://www.linkedin.com/in/kylertadams/">LinkedIn</a>
+  </div>
+</header>
+
+<section>
+  <h2>Technical Skills</h2>
+  <p><strong>Languages:</strong> Python, SQL, Terraform, Bash</p>
+  <p><strong>Cloud:</strong> AWS, Snowflake, Databricks</p>
+  <p><strong>Tools:</strong> Docker, Kubernetes, Airflow, Kafka</p>
+</section>
+
+<section>
+  <h2>Experience</h2>
+
+  <div class="job">
+    <h3>DraftKings</h3>
+    <p><em>Senior Lead Data Platform Engineer</em></p>
+    <ul>
+      <li>Led team of 10+ engineers on distributed data systems</li>
+      <li>Built DDL migration platform for 300+ DBs / 15k+ tables</li>
+      <li>Scaled Airflow to 5,000+ DAGs with 99.99% uptime</li>
+      <li>Reduced Snowflake costs by $15k/week via auto-scaling</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <h3>DreamBox Learning</h3>
+    <ul>
+      <li>Built first MLOps platform for predictive analytics</li>
+      <li>Designed Redshift warehouse with star schema</li>
+      <li>Introduced CI/CD and containerization</li>
+    </ul>
+  </div>
+
+</section>
+
+<section>
+  <h2>Interactive: Pipeline Simulator</h2>
+  <p>Click to simulate a data pipeline flow:</p>
+  <button onclick="runPipeline()">Run Pipeline</button>
+  <div id="pipeline"></div>
+</section>
+
+<script src="script.js"></script>
+</body>
 </html>
